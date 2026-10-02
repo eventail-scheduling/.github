@@ -8,11 +8,16 @@ schedule from Eventail's API.
 self-hosting with Docker Compose or Kubernetes, showing the schedule on your website, and the
 configuration and API reference.
 
-| Repository                                                                | What it holds                                               |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| [eventail-api](https://github.com/eventail-scheduling/eventail-api)       | The API and its background worker                           |
-| [eventail-web](https://github.com/eventail-scheduling/eventail-web)       | The web app for submitting sessions and running the program |
-| [eventail-deploy](https://github.com/eventail-scheduling/eventail-deploy) | The Helm chart and the Docker Compose setup                 |
-| [eventail-docs](https://github.com/eventail-scheduling/eventail-docs)     | The documentation site                                      |
+| Repository                        | What it holds                                                |
+| --------------------------------- | ------------------------------------------------------------ |
+| [eventail]                        | The API, its background worker and the web app               |
+| [eventail-deploy]                 | The Helm charts and the Docker Compose setup                 |
+| [eventail-furry-schedule-adapter] | Publishes an edition's schedule in the Furry Schedule Schema |
+| [eventail-docs]                   | The documentation site                                       |
+
+[eventail]: https://github.com/eventail-scheduling/eventail
+[eventail-deploy]: https://github.com/eventail-scheduling/eventail-deploy
+[eventail-furry-schedule-adapter]: https://github.com/eventail-scheduling/eventail-furry-schedule-adapter
+[eventail-docs]: https://github.com/eventail-scheduling/eventail-docs
 
 Everything is licensed under the Apache License 2.0.
